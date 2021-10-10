@@ -3,7 +3,7 @@ Hi! Hello! Bonjour!
 
 This repo consists,
 
-1.All the instructions to clone a GitHub repo
+1)All the instructions to clone a GitHub repo
 
   First copy the pathe of the folder which you want to clone and open the path in the cmd.
   Type `cd` and past the path.
@@ -22,10 +22,12 @@ This repo consists,
   After cloning we can see the contents by typing `dir`
   
   <img src = "https://github.com/mathee00/hello-world/blob/main/Images%20of%20GitHub%20cloning/Viewing%20the%20content.PNG" width = "700">
+  
+  In the end the github repo will be in your folder where you cloned.
 
-2.How to push code to a GitHub repo
+2)How to push code to a GitHub repo
 
   After typing the commit message, type `git push` to push the code to the GitHub repo
 
-3.All the images for my wiki pages (Including veracity dev repos wikis)
+3)All the images for my wiki pages (Including veracity dev repos wikis)
 
