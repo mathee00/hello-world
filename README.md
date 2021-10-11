@@ -1,9 +1,7 @@
 # hello-world
-Hi! Hello! Bonjour!
+Hi! Hello! Bonjour!👋
 
-This repo consists,
-
-1)All the instructions to clone a GitHub repo
+## All the instructions to clone a GitHub repo
 
   First copy the pathe of the folder which you want to clone and open the path in the cmd.
   Type `cd` and past the path.
@@ -25,9 +23,75 @@ This repo consists,
   
   In the end the github repo will be in your folder where you cloned.
 
-2)How to push code to a GitHub repo
 
-  After typing the commit message, type `git push` to push the code to the GitHub repo
 
-3)All the images for my wiki pages (Including veracity dev repos wikis)
+
+## Adding files to a GitHub repo
+  When you drag and drop a folder/file into a cloned folder (cloned GitHub repo), you need to save those changes in the GitHub as well. These are the four steps on adding a folder/file.
+  
+  ### First step - To find untracked files, type the below command
+  
+   `git status` you will get a similar output as below
+   
+   <img src = "https://github.com/mathee00/hello-world/blob/main/adding/git%20status(Finding%20untracked%20files).PNG" width = "700">
+   
+   Remember to be in the correct folder, otherwise you'll get this error
+   
+   <img src = "https://github.com/mathee00/hello-world/blob/main/adding/be%20in%20the%20correct%20folder.PNG" width = "700">
+   
+  ### Second step - Add the folder/file to the index (stagging area)
+  
+    git add <<file name>>
+    
+  <img src = "https://github.com/mathee00/hello-world/blob/main/adding/git%20add.PNG" width = "700">
+  
+  You can view the changes to be commited by typing below commad
+  
+   `git status` you will get a similar output as below
+   
+   <img src = "https://github.com/mathee00/hello-world/blob/main/adding/Changes%20to%20be%20commited.PNG" width = "700">
+   
+   ### Third step - Commit the changes with a commit message 
+   
+    git commit -m "<< commit message >>"
+    
+   You will get a similar output as below
+   
+   <img src = "https://github.com/mathee00/hello-world/blob/main/adding/git%20commit.PNG" width = "700">
+    
+   ### Final step - Push the changes to the GitHub repo (Publishing local commits)
+   
+    git push
+    
+   You will get a similar output as below
+   
+   <img src = "https://github.com/mathee00/hello-world/blob/main/adding/git%20push.PNG" width = "700">
+    
+  
+  ## Debugging errors on push
+  
+  If you get a error similar to this, you might have cloned the repo with the HTTP link. To over come this error always clone with the SSH link(passphrase - 1511).
+  
+  ### Error
+  
+  <img src = "https://github.com/mathee00/hello-world/blob/main/adding/error%20on%20push/git%20push%20error.PNG" width = "700">
+  
+  ### Solution
+  
+    git config --global http.postBuffer 524288000
+    
+  <img src = "https://github.com/mathee00/hello-world/blob/main/adding/error%20on%20push/Solution.PNG" width = "900">
+  
+  Some times the value might be doubled
+  
+    git config --global http.postBuffer 1048576000
+ 
+  ### Successful push
+  
+  <img src = "https://github.com/mathee00/hello-world/blob/main/adding/error%20on%20push/A%20successful%20push.PNG" width = "700">
+  
+  
+  ## Other info
+
+  All the images for my wiki pages (including veracity dev repos wikis) are here
 
